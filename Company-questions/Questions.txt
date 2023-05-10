@@ -1,0 +1,492 @@
+Synechron:
+
+	1.	Roles and responsibilities?
+	2.	How good are you with CI/CD?
+	3.	How do you mask the credentials in Jenkins?
+	4.	How do you clone repo in Jenkins?
+	5.	How to integrate git with Jenkins?
+	6.	Explain the complete set up for maven job in Jenkins.
+	7.	Difference between CMD and entry points.
+	8.	Difference between terminating and stopping instance.
+	9.	EBS and volumes.
+	10.	How do I know that my instance is running out of storage?
+	11.	Explain deployment file in k8s.
+	12.	What is replica set?
+	13.	What are labels and selectors?
+	14.	Default deployment strategy.
+	15.	Write a file to create any resource using terraform.
+	16.	Explain terraform commands.
+	17.	Command to List out the process running and find the disc size
+
+Company: IBM
+
+1. tell about yourself.what are the responsiblities u were handling?
+   how many years of experience u have in devops? in aws? in terraform? in python?
+2. rate yourself in Git , Aws , python , Terraform?
+3. help me in understanding 3-tier architecture and design in 3-tier architecture?
+4. explain CIDR with an example.
+5. what is cloud brusting? explain with example.
+6. what are the different types of file systems i can able to access from my service?(aws)
+7. have u mounted s3 bucket to ec2? how ?expain
+8. i have ec2 m/c used by endusers lets say my own team is using which has heavy compute load
+   what instance profile do u suggest to over come this problem?
+9. what are custom images please explain how to create it explain with a scenerio?
+10. explain git : head ,tokens,reset,revert,squash, stash, git conflicts explain how to resolve and explain how do you
+    make sure to prevent merge conflicts?
+11. what are commits in git? do we get every commit id in git? how you obtain last three and first three commits?
+12. command to push feature branch to remote repo?
+13. explain the following in TF: null resource , splat expression , for_each , count with example.
+14. which terraform version u are using ? what are meta arguments in tf.
+15. what are data sources and locals in TF?
+16. explain the latest issues you have faced in TF in your organistaion and how u resolved that probelm?
+17. explain terraform state and state lock in terraform ? explain
+18. i already have a state file. lets assume a developer from local m/c creates ec2 infra
+    with that i have a state file and i directly changed from cloud console what happens when u do 
+    terrafom apply ?
+19. what are modules in terraform? why we use it ? explain with usecase.
+20. which interpretter u are using for TF open it and write an ec2 with vpc resource and explain the steps.
+21. for the above script add modules 
+22. what are provisioner and explain differnt types of provisioners?
+23. how do you ssh to ec2 instance from TF which is created by using the terraform?
+
+company: Apparel Group/6th Street
+
+1. introduce yourself.and explain your roles in your previous organistation.
+2. tell briefly about the tools you have worked on.
+3. as u mentioned u are build and release engineer explain briefly about CICD setup in your organistaion.
+4. tell me about aws architecture of your current organisation
+5. diff b/w docker and docker swarm
+6. diff b/w k8's and docker 
+7. I have lost the key of my EC2. how to get back the key? is there any other way to launch new instance without taking AMI?
+8. what are the fields that will be displayed when i type free command? What is swap memory in linux?
+9. which DB u are using?explain RDS
+10. How to block the traffic from particular IP?
+11. Some EC2 running in private subnet. How do u provide internet access to them?
+12. linux process is running i want top 5 and last 3 process how u get it ?
+13. you have written shell script. If any of the shell command is failing u should exit from that point itself and should not execute the script. What will u do?
+14. write a shell script in your notepad of your wish and explain the steps.
+15. how you check the load of the system ?
+16. if you want to block abc.com with specific ip address how will u do it?
+17. explain vpc and vpc peering?
+18. what are the jenkins plugin have you used
+19. Which artifactory are you using ?
+20. explain jenkins backup process?
+21. what are all the env you have created in your organistaion?
+
+Company:LTI duration:35min
+
+1.tell about yourself.
+2.explain the current role and day to day activities you are doing.
+3.scenerio based questions about image pull back error . crash loopback error and how you resolve?
+4.scenerio based question on k8's services 
+5.scenerio based question on pv pvc of k8's
+6.cicd pipeline how many stages are there in your organistaion. explain 
+7.what is jenkins file? default location of jenkins file.? where you store your jenkins file?
+8.what is CI,continious delivery and continious deployment ? explain 
+9.docker concepts
+
+company: persistent systems
+duration: 40min
+
+1.tell about yourself. roles and responsibility in your organistaion.
+2.how many years of experience in k8's terraform.
+3.explain data resource ?
+4.what is count for_loop ?
+5.explain remote exec?
+6.exlain file provisioner?
+7.have u used dynamic block? explain with a used case.
+8.what is modules in terraform?
+9.explain terraform statefile ? where u store terraform.tfstate?
+10.k8's services? scenerio based on node port.
+11.k8's RBAC 
+12.shell scripting . explain some of the shellscripts u have written for your day to day activities?
+13.you know python?
+14. i have this ./script_1.sh a1 a2 . how do you pass this parameter ?
+15.linux commands -- netstat commands , awk , files and direcories modified before 30days,crontab
+
+Company: Calsoft 
+Duration: 1hr
+k8's-- Roshini
+Terraform -- sirishah
+
+1.explain your role and responsiblities in your organistaion?
+2.explain k8's architecture?
+3.explain deamonset , replicaset,deployment,pod,statefulset?
+4.do you know python?
+5.i have 5 init container, 1 init container fails, can u skip and run main app container? if yes how?
+6.what is service in k8's explain the services you have worked on?
+7.explain the scenerio where u have used endpoint controller?
+8.i have 100gi PV how to claim explain? suppouse if i want to add 50gi to PV can i add? how?
+9.what are k8's Namespace? can u do communication from namespace A to namespace B ? how ?
+10.explain ingress. explain why ingress is important in k8's? how traffic flow into ingress?
+11.how many years of experience in terraform?
+12.where u are storing the secrets in terraform?
+13.how you trigger lamda from terraform?
+14.what are the resources u have created by using terraform?
+15.do u know terraform meta-data? explain provider , count, for_each, lifecycle?
+16.i have a directory (dev) in that i have 5 YAML files i need to run those yaml files how u achive it ? 
+17.what type of groovy script u know ? what are parameters in jenkins?
+18.explain terraform state lock? how u achive that ?
+19.you said pod is the basic and smallest deployable object? why cant the containers?
+
+Hughes systique pvt ltd
+
+1.introduce yourself 
+2.roles and responsibilities
+3.complete ci cd pipeline
+How u integrated git
+4.what type of pipeline you are using
+5.write a shell script if var a = some string redirect each word to a file and print it.
+6.write a a simple deployment file.
+7.types of container and explain it .
+8.k8s service
+
+Company name: synechron
+1.introduce yourself and roles and responsibilities
+2.k8s architecture
+3.ingress
+4.ingress controller/ingress resources
+5.Some scenario based questions on ingress.
+6.how u created path based and host based routing.
+7.how request will come to cluster.
+8.Route53/ records
+9. How the communication is established from pod to pod.
+10.how to login to a pod.
+11.how to increase and decrease the replicas manually using command
+12.have u worked on any monitoring tools.
+13 when  a jenkins job is triggered it has to deployed in test an qa env how will u do it.
+14.how you integrated the sonarqube
+15. What type of plugins you are used
+16.qualitygates/metrics
+17.canary and Blue green deployment difference
+
+Persistent system
+Duration:- 1 hour
+1) Tell about your self and what are the tool have you worked on it ? Explain the tool required to your current project
+2) What are the phases of devops
+3) Write a groovy script for CI pipeline job with Code analysis using Sonarqube ? Explain step by step
+4) How to step up downstream and upstream job in your pipeline job
+5) where you will store credentials in Jenkins explain it how will that credentials will access the application
+6) Scenario base questions
+     If my application is    running and i got some problem i want to roll back to the old version how you will buil this job without a downtime
+7) What is user data script
+8) Explain could front? 
+9) How many years of experience in terraform and k8s
+10) what is docker file
+11) explain the required instruction to create docker file
+12) How do the port mapping in docker
+13) Explain service in k8s 
+14) what is probe ? Explain different types of Probe
+15) What deployment strategy your using in your organization
+16 ) explain different types of deployment strategy
+17) how to configure the blue green deployment
+18) which branching strategy your following in your company? Explain it 
+19) Have you managed team in your company
+20) how you will resolve problems in the team ? if your lead
+21) do you follow agile methodologies
+22) having the experience in jira tool
+
+company: Nagarro
+
+1.tell about yourself.
+2.what roles u were doing in your current project?
+3.what are the k8's resources you are used?
+4.explain services you are used in k8's?
+5.there are three containers running in a pod . if one container fails the pod should terminate. how you do it ?
+6.explain a/b deploying strategey.
+7.node affinity , anti affinity.
+8.terraform refresh vs terraform import?
+9.terraform grunt
+10.terraform statefile? how u maintaining?
+11.if i delete statefile in remote backend s3 what will happen ? when i run apply command will it say no changes or it will create one more resource?
+12.share screen and write resource block for s3?
+13.ci tool using? how u deploying to k8's?
+14.scripts you know? explain any script u have automated recently?
+15.what exactly you doing with ansible?explain
+
+Company: Persistent Systems.
+
+1.explain the roles u have in your organistaion? explain briefly about your current project.
+2.what all are the tools u are familar?
+3.container port is 80 i want to expose it to 8080 how u do it?
+4.services u have worked on ?
+5.how u maintaing secrets in k8's ? how about configMaps?
+6.share screen write deployment , service yaml files.
+7.aws services u have worked on. explain route 53 ? what is A type record set ? have u configured? how ?why?
+8.explain the configuration of Network Loadbalancer?
+9.what is VPC?what is VPN? can i create ec2 instance without selecting VPC? 
+10.what are subnets? how u accesss private subnet?
+11.shared libraries jenkins?
+12.explain the CD setup u have done? how u deploying into k8's?
+13.what are the resources u have created by using terraform?
+14.In notepad write the terraform main.tf for ec2.what are modules? write modules block and show?
+15.have you used count , for_each? explain
+16. explain state file? what happens if u store your statefile in local? what is state locking then explain?
+17.How does a day look like for Releasing to Production
+18.If an Application is reported unresponsive, what are your initial checks 
+19.are u using helm ? what does chart.yml contains ?
+20. do you know python?
+
+Company name:- Nlb tech
+1) tell about your self  and what are the project your handling
+2) What is pull request? Why you will use it
+3) if my application getting 404 error ? what are the step will you take 
+4) how to you add the SSL certificate to Cluster
+5) What are type of parameters in Jenkins
+6) what is cgroup in docker
+7) how to expose the multiple container to external world
+8) why you need ingress and ingress resources
+9) what is affinity and anti- affinity 
+10) Why are attaching the Role to resources 
+11) if you lost the credential to log in to Jenkin how you will retrieve it
+12) how you will roll back to the previous build in the Jenkins
+
+Company : Talentica 
+
+1.explain the roles and responsibilities in your current project?
+2.do you know python?
+3.what are all the bash scripts u have written?
+4.explain the CICD 
+5.scenerio based question on AWS route53,S3-Buckets.
+6.how you configure autoscaling?
+7.explain the serverless platform u have used in your project.
+8.have you used cognito? what is user pool? how u configure?
+9.jenkins parameters?
+10.docker bridge network?
+11.scenerio based docker questions about volume 
+12.k8's installation process?
+13.k8's ingress scenerio based question?
+14.service , deamonset,stateful set of k8's and differnce b/w stateful and deamon.
+15.tearrform statefile lock
+16.do u have experience in managing the team?
+
+Company : AIRBUS
+
+1.Explain your Role as Release Engineer.What does a typical day look like?
+2.explain CICD of your organisation setup?
+3.(in code share) write the pipe line from git checkout , image build , sonar scnner,push to regestiry ,k8's deploy (15min time)
+4.is your application live ?
+5.deployment strategy? you are using blue-green or canary?
+6.write script to kill the process called dockerD
+7.How Many Environments are involved and can you explain how code is pushed from Dev to Production
+8.How do you organize your source codes in Version Control 
+  When do you branch out.
+9.If there is a issue in production and there are already some features developed which are due for testing, how do you organize source code to have this issues get fixed first 
+10.What are the health checks you do daily
+11.Explain - AWS , its services and how best you have leveraged each of them
+12.How did you support Auto Scaling
+13.have u used cucumber , postman, JIRA?
+14.What was the need for IaC? 
+15.write terraform script for s3. write remote exec block ?
+16.explain k8's RBAC ,HPA,
+17.explain ingress ? which ingress controller you are using?
+18. you said you are deploying with HELM. what are the advantages?
+
+Company : NBL Tech
+
+1.tell about your self.roles and responsibilities
+2.diff b/w git and git hub
+3.types of parameters u have used. explain
+4.how to specify the IP for a container while creating.
+5.can we specify the multiple domain in ingress?
+6.RBAC ? how to give permission for the developer to access the EKS cluster.
+7.i lost jenkins password . i dont have vault to store . how u login ?
+8.post and re-build in jenkins 
+9.if u create user in linux and passwd is created for the user where the password will be stored in linux?
+10.poll scm and build periodically
+11.version of docker and k8's you are using?
+12.if my application showing 500 error what is that means ? how u resolve?
+13. what is 401 error 404, 405 error?
+14.recent issue u have faced and how u resolved that ?
+15.what feedback u have given for CD in your organisation?
+
+1. Explain a standard 3 tier architecure in Aws
+2. How to connected to instances in private subnet.
+3. Why we create NAT gateway in public subnet.
+4. He gave cidr block and asked how many ips are available.?
+5. He gave 4 actions and asked name of aws services who help me achieve those actions
+6. What is the drawback of s3 glacier?
+7. Whats the diff bw Data warehouse and Database.
+8. How to give cross account s3 bucket access?
+9. What is Aws sts?
+10. How to configure Cloud watch to automatically recover EC2 instance?
+11. Write a TF script using single resource block and create 3 S3 bucket.
+12. Write a dockerfile using ubuntu image,  install nginx, expose port 80 and print a message.j
+13. What is scheduler in K8s
+14. How to create K8s context?
+15. What ia use of trap function in shell.
+16. You have an input string...reverse the letters of each word in the string in shell script
+
+Altruistindia
+1) introduction your self and explain which tool you have worked on
+2) Explain your CI/CD
+3) what is continuous integration ? Why we need it
+4) have written a groovy script from scratch
+5) do you now python
+6) have you having the access to AWS as Admin
+7) Which deployment strategy is used in your company
+8) can you select the 3 commit to trigger the ci/cd ? How you will mention it
+9) How kubernetes cluster is managed
+10) how is decided to deploy the pod on the worker node
+11) what is pod
+12) How you will deploy new updates to the application without downtime
+13) have migrated the monolithic application to micro service application? Explain it
+14) which bash script you have written
+15) have you written any cron job? Where are written it
+16) where are setup mail existence in Jenkins
+17) which every automation tool have you used in your project
+
+Company:- persistent system ( L2)
+Duration:- 50 minutes
+1) tell about your self and project your current working on it ? Explain it
+2) What major difference between role and Policy
+3) one application is running on the Ec2 install and S3 bucket should be communicate to the instance ? How explain it detailed
+4) How you will attach the role to ec2 instance
+5) see i having 10 server in that only 8 server can access by IAM user remaining 2 server should be accessed ? how you will do it
+6) have you worked on cloud formation
+7) How any language do you now
+8) Write deployment object in k8s
+9) In k8s ingress object which of the components will there
+10) how you will call SSL for your application
+11) how you will upgrade the Jenkins from x.x version to y.y version
+12) how you will Store the credential of AWS in Jenkins and how you will call it ? Explain it
+13) Which type of architecture you are using in your organization in Jenkins? Explain it
+14) Explain k8s architecture? How many servers was there in worker node
+15) What is docker multi stage build? Why you will use it
+16) write docker file
+17) explain helm chart folder
+18) why helm is used in K8s
+19) do you having the experience in ECS
+20) what is pv and pvc in k8s
+
+company name - siemens
+1)Introduce your self?
+2)explain me how you build a infrastructure in your company?
+3)break up strategy to taking backup of EBS and RDS backup? 
+4)how to move one EBS volume from one account to another account?
+5)what is back up do you prefere to take complete EC2?
+6)how do you automate to create new VM using AMI?
+7)any idea on Linux ulimiter?
+8)what is umask?
+9)can VPC peering possible for 2 diffrent regions?
+10)explain merg conflict?
+11)what is branching in git?
+12)what is git fork?
+13)what is git clone?
+14)what is roles in ansible?
+15)what is the jinja tool template?
+16)what are the monitoring tools you are working?
+17)explain docker volumes and bind mounts?
+18)how to create docker bridge network?
+19)what is namespace and Cgroups? 
+20)how to establish connection between two servers without password?
+21)if you are unable to reach to web server what are all things you will check?
+22)if you are migrated old domain to new domain how do you make the request to redirect it to new domain?
+23) where do you import SSL certificate?
+
+Company: Talentica
+Director round : Aniketh -- vice-president at Talentica--Pune.
+
+1.Asked about the roles and responsiblities from past one year.
+2.Education qualification. when you joined the current organistaion.
+3.Explain the first project . what all you have done as a team member.
+4.Team size . over all project team size.
+5.What is your technical intrests?
+6.Tupple in python? which Python version you are learning?
+7.Command to check the history of deployments including the revision in k8's?
+8.do u know about reverse-proxy and proxy? do u know how to setup proxy servers? have u done that ?
+9.what rating postion you give yourself as a team member?
+10.CICD means what u know why you want this setup? do you think its more important in DevOps?
+11.Why are you leaving your present position?
+12.What do you know about talentica?
+13.What areas do you think you still need to develop?
+14.how you optimize the aws billing? any specific actions you taken ?
+15.how you check file size , disk size ,to list all tcp listening ports?
+16.any achivements you have done that made you so proud.
+
+Rakuten 
+1) brief about yourself and your roles and responsibilities 
+2) how you check the load of the application 
+3) how you increase the volume
+4) what is 504 error 
+5) suppose if you have single instance and how you make sure that it is highly available 
+6) what is etcd and how you communicate 
+7) what are compnets in worker node
+8) explain kubelet and kubeproxy
+9) what is static pod
+10) why you use anisble
+11) what are handlers, suppose I have 4 task how many times the handles will trigger 
+12) what is liveness probe and readiness probe
+13) what is multi branch pipeline 
+14) suppose I want to run particular application in particular worker node how you achieve in pipeline 
+15) what is CMD and ENTRYPOINT
+16) suppose if I want to have Ubuntu image what you will mention in docker file
+17) suppose my application is in another server and how you will configure in order build that application in jenkins automatically 
+18) how you will install a package using anisble
+19) how you get CPU utilization 20) command to get the disk size
+21) different network types in docker
+22) what are init containers and why you use them
+23) what are challenges you faced in k8s and how you resolved
+
+Company: Nagarro
+
+1. tell about yourself.
+2. explain cicd
+3. scenerio based auto-scaling question
+4. application load balancer setup
+5. configuration management tool?
+6. how u call playbook A from Playbook B
+7. persistent vol , pvc , dynamic pv
+8. k8's secrets , encryption . how to change the default encryption in k8's
+9. terraform provisioners 
+10 jenkins parallel block 
+11. shell scripting
+
+Company : AIRBUS
+
+1. what are the roles and responsiblities u have wrt to your project?
+2. git merge conflict how you resolve
+3. explian CICD of your organistaion
+4. i have 12 python project i need to do cicd how you will do it ?
+5. explain master slave concept
+6. share screen in notepad write pipeline with env variables( write one stage)
+7. ansible version. dynamic inventory. why you using ansible in your organistaion? do you know about ansible tower?
+8. do you know how to install ansible based on package manager?
+9. ELB v/s ALB explain
+10. terraform version? what exactly you are doing in terraform?
+11. terraform provisioners? null resource ? data resource? 
+12. shell script scenerio based question : to find the files in a directory path ./airbus
+    which are not modified for 10days and archive it. 
+13. command to run the above script in remote server.
+14. what does this command do (grep MemTotal /proc/meminfo)
+
+company: Mphasis
+
+1. introduce yourself.
+2. git reset , rebase.
+3. how do you merge a branch3 with branch7
+4. cicd . groovy script. can you run all the stages parallely?
+5. why you need docker multi build dockerfile? explain concept you have written?
+6. CMD ,ENTRYPOINT , COPY , ADD
+7. k8's architecture.
+8. share screen-- notepad -- scenrio - Needs to create a pod with name nginx-deployment , Replicas 3 and create a container inside the pod of 
+( image: nginx:1.14.2 and image name -nginx )open port 80, and protocol is TCP
+9. command to run the above file? command to list the pods on particular node.
+10. what is API? what is the api version u are using for ingress?
+11. linux explain mv , to copy directory, to check free space avaliable , create directory dir3 inside dir2
+12. how do you restart a particular service 
+13. terraform init. what it does in background?
+14. Write a terraform code to create a state file in backend and also create a 
+    VPC with name "my_vpc" and place 2 EC2 instance in it
+15. which protocol ping uses? what is port 23? what it says -- 1)$? , 2)$$
+
+ompany : Puresoftware
+duration: 15 min 
+round : screening round.
+
+1. which tool you are using for cicd?  List some features of Jenkins.
+2. Do you know any other continuous integration tools? How is Jenkins better than any of those?
+3. What are the system requirements to install Jenkins?
+4. some of the important plugins u have installed?
+5. if you want to set up a cron for every tuesday at 09.59 pm ?
+6. are you intrested in working with operations team or Devops team?
